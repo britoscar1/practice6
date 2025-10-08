@@ -1,0 +1,38 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel ="stylesheet" href="mystyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@604&display=swap" rel="stylesheet">
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <h1>Notes app</h1>
+        </header>
+        <main>
+            <form class="note-form">
+                <div class="note-content">
+                    <label for="titleTxt">Title</label>
+                    <input type="text" id="titleTxt" placeholder="Enter title">
+                </div>
+                <div class="note-content">
+                    <textarea rows = 5 cols= 30 id="contentTxt" placeholder="Write your note"></textarea>
+                </div>
+                <div class="note-content">
+                    <button id="saveBtn" class="inputBtn">Save note</button> 
+                </div>
+                
+            </form>
+            
+            <section id="notes-container" class="notes"></section>
+
+     
+
+        </main>
+        <script src="./scripts/scripts.js"></script>
+    </body>
+    </html>
